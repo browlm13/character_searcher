@@ -5,15 +5,28 @@ Most frequently used character stroke order gif
 
 ![Most frequently used character stroke order gif](https://github.com/browlm13/CharacterSearcher/blob/master/CharacterSearcher/的_stoke_order.gif)
 
-## use:
-
-Clone/Download the repository
-Unzip the character gifs folder
+## Usage
+Clone
+```
+git clone https://github.com/browlm13/character_searcher.git
+```
+Change directory
+```
+cd character_searcher
+```
+Install
+```
+sudo python setup.py install
+```
+Importing the package
+```
+import character_searcher
+```
 
 ```
     import character_searcher
 
-    cs = CharacterSearcher()
+    cs = character_searcher.CharacterSearcher()
     results = cs.search_character('的')
     
 ```
