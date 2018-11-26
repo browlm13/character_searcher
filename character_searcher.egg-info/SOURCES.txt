@@ -1,0 +1,8 @@
+README.txt
+setup.py
+character_searcher/__init__.py
+character_searcher.egg-info/PKG-INFO
+character_searcher.egg-info/SOURCES.txt
+character_searcher.egg-info/dependency_links.txt
+character_searcher.egg-info/requires.txt
+character_searcher.egg-info/top_level.txt

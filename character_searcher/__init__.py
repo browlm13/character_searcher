@@ -1,0 +1,1 @@
+from character_searcher.character_searcher import CharacterSearcher
