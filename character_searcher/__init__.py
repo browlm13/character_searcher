@@ -1,1 +1,1 @@
-from character_searcher.character_searcher import CharacterSearcher
+from src.character_searcher import CharacterSearcher
