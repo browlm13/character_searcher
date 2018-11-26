@@ -6,5 +6,40 @@ Home-page: https://github.com/browlm13/character_searcher.git
 Author: L.J. Brown
 Author-email: UNKNOWN
 License: UNKNOWN
-Description: UNKNOWN
+Description: # character_searcher
+        Information on the most frequently used simplified Chinese characters: stroke order gifs, definitions, pinyin and variants for most simplified characters.
+        
+        Most frequently used character stroke order gif
+        
+        ![Most frequently used character stroke order gif](https://github.com/browlm13/CharacterSearcher/blob/master/CharacterSearcher/的_stoke_order.gif)
+        
+        ## Usage
+        Clone
+        ```
+        git clone https://github.com/browlm13/character_searcher.git
+        ```
+        Change directory
+        ```
+        cd character_searcher
+        ```
+        Install
+        ```
+        sudo python setup.py install
+        ```
+        Importing the package
+        ```
+        import character_searcher
+        ```
+        
+        ```
+        
+            cs = character_searcher.CharacterSearcher()
+            results = cs.search_character('的')
+            
+        ```
+        
+        ```
+        {'variants_traditional': [], 'character_traditional': '的', 'frequency': 6538132, 'pinyin': ['de', 'dī', 'dí', 'dì'], 'stroke_order_gif_file': 'stroke_order_gifs/的_stoke_order.gif', 'character_simplified': '的', 'variants_simplified': [], 'number_of_strokes': 8, 'definitions': ['of', "~'s (possessive particle)", '(used after an attribute)', '(used to form a nominal expression)', '(used at the end of a declarative sentence for emphasis)', 'see 的士[di1 shi4]', 'really and truly', 'aim', 'clear'], 'computer_pinyin': ['de5', 'di1', 'di2', 'di4'], 'search_character': '的'}
+        ```
+        
 Platform: UNKNOWN
