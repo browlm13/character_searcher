@@ -24,7 +24,6 @@ import character_searcher
 ```
 
 ```
-    import character_searcher
 
     cs = character_searcher.CharacterSearcher()
     results = cs.search_character('的')
