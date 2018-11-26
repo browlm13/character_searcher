@@ -46,9 +46,9 @@ class CharacterSearcher:
     def __init__(self):
 
         # load dfs
-        self.character_frequency_csv_file = "../data/character_frequency_dataframes/character_frequency_stroke.csv"
-        self.cedict_df_csv_file = '../data/cedict_dataframes/cedict_df.csv'
-        self.charcter_gif_file_template = "../data/stroke_order_gifs/%s_stoke_order.gif"
+        self.character_frequency_csv_file = "character_searcher/data/character_frequency_dataframes/character_frequency_stroke.csv"
+        self.cedict_df_csv_file = 'character_searcher/data/cedict_dataframes/cedict_df.csv'
+        self.charcter_gif_file_template = "character_searcher/data/stroke_order_gifs/%s_stoke_order.gif"
         
         tf_data_converters_dict = {
             "frequency": literal_eval,
